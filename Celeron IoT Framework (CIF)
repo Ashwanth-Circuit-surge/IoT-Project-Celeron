@@ -1,0 +1,39 @@
+Celeron IoT Framework (CIF) is an open-source software framework designed to facilitate the development, deployment, and management of IoT solutions leveraging Intel Celeron processors. CIF provides comprehensive tools and libraries for sensor integration, local processing, cloud connectivity, and real-time data analytics.
+
+Features
+Modular Design: Enables easy integration and customization for various IoT applications.
+Edge Processing: Supports real-time data processing at the edge, reducing latency and bandwidth usage.
+Cloud Integration: Seamless connectivity to popular cloud platforms for data storage and analysis.
+Comprehensive Documentation: Detailed guides and examples to assist developers in building and deploying IoT solutions.
+Cross-Platform Support: Compatible with Linux and Windows operating systems.
+Components
+Edge Layer
+The edge layer focuses on interfacing with sensors and actuators, and performing initial data processing. It includes libraries and tools for managing hardware interactions.
+
+sensor_interface.py: Library for interfacing with various sensors.
+actuator_control.py: Library for controlling actuators based on sensor data.
+Fog Layer
+The fog layer handles local data processing and decision-making. It can offload tasks from the cloud, enabling faster response times and reducing data transfer requirements.
+
+local_processing.py: Script for performing local data analysis and decision-making.
+Cloud Layer
+The cloud layer manages data storage, analysis, and visualization. It integrates with cloud services to provide comprehensive data insights and remote control capabilities.
+
+cloud_integration.py: Library for connecting to cloud platforms and transmitting data.
+Tools and Libraries
+Adafruit_DHT: Library for reading data from DHT sensors.
+paho-mqtt: Client library for the MQTT protocol to enable cloud communication.
+AWS IoT SDK / Azure IoT SDK: SDKs for integrating with AWS and Azure IoT services.
+Setup and Configuration
+Hardware Requirements
+Intel Celeron Processor (e.g., N3350)
+Sensors (e.g., DHT22 for temperature and humidity)
+Actuators (e.g., relay module)
+Connectivity Modules (e.g., Wi-Fi)
+Power Supply
+Software Requirements
+Operating System: Linux (Ubuntu) or Windows IoT Core
+Development Environment: Visual Studio Code or Eclipse
+Programming Languages: Python, C/C++, JavaScript (Node.js)
+Network Configuration
+Configuring a static IP address for reliable network communication:
