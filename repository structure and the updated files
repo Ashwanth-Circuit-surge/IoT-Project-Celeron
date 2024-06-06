@@ -1,0 +1,20 @@
+IoT-Project-Celeron
+│
+├── README.md
+├── docs
+│   ├── introduction.md
+│   ├── hardware.md
+│   ├── software.md
+│   ├── network_configuration.md
+│   ├── coding_examples.md
+│   ├── testing_deployment.md
+│   └── resources.md
+├── src
+│   ├── edge_layer
+│   │   ├── sensor_interface.py
+│   │   └── actuator_control.py
+│   ├── fog_layer
+│   │   └── local_processing.py
+│   ├── cloud_layer
+│   │   └── cloud_integration.py
+└── LICENSE
